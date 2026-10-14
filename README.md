@@ -31,5 +31,4 @@ Check a server's rules before using client-side mods there.
 
 ## Release 0.4.0
 
-This is the first public Ride Camera release for Minecraft 1.12.2.
-"README.md" 53L, 1875B                                                                              46,0-1        90%
+This is the first public Ride Camera release for Minecraft 1.12.2.                                                   

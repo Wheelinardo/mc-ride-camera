@@ -1,4 +1,5 @@
 # mc-ride-camera
+Ride Camera is a client-side Minecraft Forge mod that automatically points your view in the direction of travel on custom roller coasters and vehicles. It provides smooth rotation, independent mouse look, automatic ride detection, and configurable camera behavior without moving the player or sending custom network data. Designed for Minecraft Java Edition 1.12.2.
 
 ## Controls
 

@@ -25,6 +25,8 @@ All keys can be reassigned through Minecraft's Controls screen.
 
 - Server or network pauses can still freeze the actual ride vehicle.
 - Automatic activation currently detects armor-stand vehicles. Use `V` on unsupported vehicles.
+- Trackless Rides do not produce good smooth motion due to position not matching vehicle orientation.
+  A future fix is being investigated. For now, it is recommended to turn the ride camera off (v).
 - Camera roll and true inversion through coaster loops are not supported.
 
 Check a server's rules before using client-side mods there.

@@ -1,1 +1,34 @@
 # mc-ride-camera
+
+## Controls
+
+- `V`: manually enable or disable Ride Camera.
+- Mouse: look freely relative to the ride's direction, including backward-facing seats.
+- `B`: recenter the mouse-look offset.
+- `O`: open quick settings and detailed tuning controls.
+- `N`: show or hide diagnostic information.
+
+All keys can be reassigned through Minecraft's Controls screen.
+
+## Default behavior
+
+- Automatically enables after mounting a detected armor-stand ride vehicle.
+- Waits through brief vehicle swaps before automatically disabling.
+- Follows horizontal turns, climbs, and drops.
+- Holds the last known camera direction during missing movement updates.
+- Uses unrestricted horizontal mouse look.
+- Changes only camera rotation and never moves the player or camera position.
+- Hides diagnostics until requested.
+
+## Limitations
+
+- Server or network pauses can still freeze the actual ride vehicle.
+- Automatic activation currently detects armor-stand vehicles. Use `V` on unsupported vehicles.
+- Camera roll and true inversion through coaster loops are not supported.
+
+Check a server's rules before using client-side mods there.
+
+## Release 0.4.0
+
+This is the first public Ride Camera release for Minecraft 1.12.2.
+"README.md" 53L, 1875B                                                                              46,0-1        90%
